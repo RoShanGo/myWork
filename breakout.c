@@ -140,7 +140,7 @@ int main(void)
     // You win! or...lose...
     if(bricks > 0)
     {
-        GLabel verdict = newGLabel("You lose, lol.");
+        GLabel verdict = newGLabel("That all you got?");
         setFont(verdict, "SansSerif-50");
         setColor(verdict, "C71585");
         add(window, verdict);
@@ -148,7 +148,7 @@ int main(void)
     }
     else
     {
-        GLabel verdict = newGLabel("You win!!");
+        GLabel verdict = newGLabel("You Win!!");
         setFont(verdict, "SansSerif-50");
         setColor(verdict, "C71585");
         add(window, verdict);
